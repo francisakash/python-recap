@@ -1,9 +1,11 @@
-class Git:
-	def __init__(self, num):
-		self.num = num
+class Car:
+	def __init__(self, model:str, make:int, color:str):
+		self.model = model
+		self.make = make
+		self.color = color
 
-	def get_details(self):
-		print(f"version {self.num}")
+	def describe(self):
+		print(f"Model: {self.model}, make: {self.make}, color: {self.color}")
 
-v1 = Git(2)
-v1.get_details()
+car1 = Car("Mustang", 2025, "Blue")
+car1.describe()
