@@ -5,8 +5,8 @@ class Animal:
 		self.is_alive = True
 
 class Dog(Animal):
-	def speak(gulp):
-		print(f"{gulp.name} is saying woof")
+	def speak(self):
+		print(f"{self.name} is saying woof")
 
 class Cat(Animal):
 	def speak(self):
