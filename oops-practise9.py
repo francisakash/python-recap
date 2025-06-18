@@ -13,7 +13,7 @@ class Car:
 		self.wheel = [Wheel(wheel_size) for wheel in range(4)]
 
 	def display_car(self):
-		return f"{self.name} has {self.engine.horse_power}hp {self.wheel[0].wheel_size}"
+		return f"{self.name} has {self.engine.horse_power}hp {self.wheel[0].wheel_size}in"
 
 car1 = Car("mustang", 500, 18)
 print(car1.display_car())
